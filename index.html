@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website|Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="myTopnav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li class="topnav-right"><a href="#">Signup</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+                <div class="col-6">
+                    <div class="left-side-col">
+                        <h1 class="large">Quarantine Shoppers!</h1>
+                        <h1 class="large">Made for Carrascalanons</h1>
+                    </div>
+                    <br>
+                    <form action="#">
+                        <div class="left-side-col">
+                            <h2>Username</h2>
+                            <input class="inputbox" name="username" type="text" placeholder="Username">
+                            <h2>Password</h2>
+                            <input class="inputbox" name="password" type="password"  placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <div class="right-side-col">
+                        <div class="videoContainer">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gHQX5aOjci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <br>
+        
+    <header>
+        <H1 class="section2Header">Choices for Shoppers</H1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="/images/meat.png" alt="meat">
+                        <br>
+                        <label>Meat/Fish Products</label>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="/images/vegetable.jpg" alt="meat">
+                        <br>
+                        <label>Vegetable Products</label>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="/images/fruits.png" alt="meat">
+                        <br>
+                        <label>Fruit Products</label>  
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <button class="learnMore">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <article>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                </article>
+            </div>
+            <div class="col-6">
+                <img class="bottom-pic" src="images/adaptive.jpg" alt="adaptive">
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="row">
+        <div class="col-12">
+            <footer>
+                <h5>©Untitled.All rights reserved. | Design by:RJAY-MERY | Version 1.0</h5>
+            </footer>
+        </div>
+    </div>
+    
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";} 
+        else {
+            x.className = "topnav";
+         /*change topnav to topnav.responsive*/
+        }
+        }
+    </script>
+    
+</body>
+</html>
